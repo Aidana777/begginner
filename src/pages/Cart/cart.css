@@ -47,7 +47,21 @@
     height: 443px;
     width: 320px;
     display: flex;
+    font-size: 17px;
+  }
+  .cartItem {
+    width: 430px;
+    height: 200px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 10px;
+    justify-content: center;
+    margin-left: 260px;
+  }
 
-
+  .cartItem .description {
+    width: 150px;
+    font-size: 10px;
+   
   }
 }
