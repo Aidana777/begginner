@@ -3,6 +3,7 @@
   text-align: center;
   font-size: 40px;
 }
+
 .products {
   width: 100%;
   height: auto;
@@ -50,4 +51,22 @@
   background-color: rgb(19, 19, 19);
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width:650px) {
+  .products {
+    width: 320px;
+    height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product img {
+    width: 200px;
+  }
+
+  .product .description {
+    width: 117px;
+    align-items: center;
+  }
 }
