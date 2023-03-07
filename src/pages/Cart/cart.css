@@ -29,6 +29,7 @@
   width: 40px;
   text-align: center;
   font-weight: bolder;
+  margin-bottom: 40px;
 }
 
 .checkout button {
@@ -44,24 +45,30 @@
 
 @media screen and (max-width:650px) {
   .cart {
-    height: 443px;
-    width: 320px;
     display: flex;
+    justify-content: center;
     font-size: 17px;
+   justify-content: center;
+
   }
+
   .cartItem {
-    width: 410px;
-    height: 200px;
+    width: 450px;
+    height: 280px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
     margin: 10px;
     justify-content: center;
-    margin-left: 120px;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+
   }
 
   .cartItem .description {
     width: 150px;
     font-size: 10px;
-   
+
   }
+
 }
